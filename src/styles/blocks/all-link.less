@@ -1,0 +1,20 @@
+.all-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color: @dark_green;
+    transition: color 0.2s;
+
+    &:hover {
+        @media (hover: hover) {
+            color: @green;
+        }
+    }
+
+    &__label {
+        font-family: @font1;
+        font-weight: 700;
+        font-size: 36px;
+        margin-right: 30px;
+    }
+}
