@@ -1,0 +1,85 @@
+.pet-card {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 360px;
+    max-height: 498px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 15px;
+    border: 2px solid transparent;
+    -webkit-transition: border-color 0.2s;
+    transition: border-color 0.2s;
+  }
+  .pet-card:hover {
+    border-color: #65A943;
+  }
+  .pet-card__picture {
+    width: 330px;
+    height: 330px;
+    border-radius: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .pet-card__img {
+    width: 330px;
+    height: 330px;
+  }
+
+  .pet-card__name {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+  .pet-card__about {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    margin-bottom: 16px;
+  }
+  .pet-card__gender,
+  .pet-card__age {
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    color: #667479;
+  }
+  .pet-card__gender::before {
+    content: attr(gender) " ";
+  }
+  .pet-card__gender::after {
+    content: '•';
+    margin: 0 18px;
+    vertical-align: middle;
+    font-size: 40px;
+  }
+  .pet-card__age::before {
+    content: attr(age) " ";
+  }
+  .pet-card__city,
+  .pet-card__shelter {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1f1e1e;
+  }
+  .pet-card__city::before {
+    content: attr(city) " ";
+  }

@@ -1,0 +1,22 @@
+.all-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    color: #45513F;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+  }
+  .all-link__label {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin-right: 30px;
+    padding-top: 7px;
+  }

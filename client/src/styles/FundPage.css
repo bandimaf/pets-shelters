@@ -1,0 +1,100 @@
+.fund-page {}
+
+.fund-page__title {
+    margin-top: 70px;
+}
+
+.fund-page__post-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fund-page__post-info-item {
+    margin-top: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 26px;
+    color: #1f1e1e;
+}
+
+.fund-page__post-info-item--link {
+    font-weight: 600;
+}
+
+.fund-page__post-info-item--link:hover {
+    transition: color 0.2s;
+    color: #65A943;
+}
+
+.fund-page__info {
+    margin-top: 30px;
+}
+
+.fund-page__img {
+    height: 500px;
+    width: 1650px;
+}
+
+.fund-page__description {
+    margin-top: 60px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: justify;
+    color: #1f1e1e;
+}
+
+.fund-page__help {
+    margin-top: 60px;
+}
+
+.fund-page__sum-block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.fund-page__sum-count::after {
+    content: ' ₽';
+}
+
+.fund-page__sum-label, .fund-page__sum-count {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+}
+
+.fund-page__sum-count {
+    font-weight: 400;
+}
+
+.fund-page__sum-container {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #cad3ca;
+    ;
+    border-radius: 50px;
+}
+
+.fund-page__sum-progress {
+    display: flex;
+    height: 49px;
+    background-color: #65a943;
+    border-radius: 50px 0 0 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+
+.fund-page__slider {
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 70%;
+}

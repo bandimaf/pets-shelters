@@ -1,0 +1,65 @@
+  .card-link {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+  }
+  .card-link:hover {
+    color: #65A943;
+  }
+  .page-numbers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5px;
+  }
+  .page-numbers__item {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-bottom: 10.5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #45513F;
+    border: 2px solid transparent;
+    border-radius: 5px;
+  }
+  .page-numbers__item:hover {
+    border-color: #65A943;
+  }
+  .filter__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 13px;
+    background-color: transparent;
+    border: none;
+    color: #1f1e1e;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+  }
+  .filter__btn:hover {
+    color: #45513F;
+  }
+  .filter__btn-title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+  }
+ 
